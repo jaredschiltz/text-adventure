@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+  <div style="padding:5px"></div>
+    <table style="background-color: green; color: black; width:100%; text-align: left;">
+        <tr>
+            <th>Middle of Nowhere</th>
+            <th style="text-align: right; padding:5px">Score:</th>
+        </tr>
+    </table>
+    <div style="padding:5px"></div>
+    <div id="textField" style="border:0px solid #ccc; height:480px; white-space: nowrap;">
+    </div>
+    <div>
+        <label id="cursor">></label>
+        <input autofocus style="padding:10px; color: green; background-color:black; border-style:none; font-family: 'myC64Font';
+       outline:none; font-size:16px; caret-color: transparent; " type="text" id="inputBox" size="41" spellcheck="false" maxlength="40" onkeypress="keyPressFcn(event)">
+    </div>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
